@@ -12,7 +12,7 @@ echo  "https://${CODESPACE_NAME}-8080.githubpreview.dev"
 to compile/run for development:
 ```
 mvn clean install  
-mvn spring-boot:run -Dspring-boot.run.profiles=dev
+mvn clean install  
 echo  "https://${CODESPACE_NAME}-8080.githubpreview.dev"
 ```
 
